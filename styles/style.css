@@ -7,3 +7,55 @@
     font-variation-settings:
       "wdth" 100;
   }
+
+
+  
+.open-sans-adlam-display {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+ 
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.banner-title{
+  font-size: 56px;
+  font-weight: 400;
+  margin-top: 100px;
+  margin-left: 240px;
+
+}
+.banner-description{
+  font-size: 20px;
+  color: #111111;
+  margin-left: 240px;
+
+}
+@media screen and (max-width: 430px) {
+  .banner-title{
+    margin-left: 16px;
+    margin-top:32px ;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .banner-description{
+    font-size: 16px;
+    color: #111111;
+    margin-left: 16px;
+   
+  
+  }
+  .banner-img{
+    position: absolute;
+   
+    width: 400px;
+    height: 288px;
+     top: 100px;
+      right: 200px;
+       left: 0px;
+        z-index: 0;
+  }
+
+
+
+}
